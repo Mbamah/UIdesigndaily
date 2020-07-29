@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: #e5e5e5;
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    /* text-align: center; */
+    /* display: flex; */
+    width: 1058px ;
+    margin: 80px auto ;
+    /* margin: auto;
+    width: 50%; */
+    
+    /* align-items: center;
+    justify-content: center;
+    min-height: 100vh; */
+}
+
+.container{
+    background-color: #fff;
+    max-width: 1000px;
+    height: 450px;
+    display: flex;
+    position: relative;
+}
+
+.img{
+    width: 468px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.text{
+
+    display: flex;
+    flex-direction: column;
+    margin: 2em  7em 0;
+
+}
+
+.text::before{
+    content: '"';
+    position: absolute;
+    width: 301px;
+    height: 101px;
+    top: 75px;
+    right: 140px;
+    font-size: 4rem;
+    /* font-weight: bolder; */
+}
+
+.text p{
+    padding: 1em 0;
+    /* background-color: blueviolet; */
+    margin: 3em 0 4em 0;
+    font-size: 20px;
+}
+
+.text h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: .5em 0;
+}
+
+.text h5{
+    font-size: 18px;
+    font-weight: 400;
+    /* margin: 0; */
+}
+
+.sponsors{
+    margin: .8em 0;
+    /* background: greenyellow; */
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* text-align: center; */
+    /* padding: 1em; */
+    /* flex-direction: row; */
+}
+.btn{
+    border: none;
+    width: 180px;
+    height: 55px;
+    background: #070b0e;
+    padding: 1em;
+}
+.icon{
+    border: none;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 55px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.sponsors a{
+    text-decoration:none;
+    color: #fff;
+    border-radius: 3px;
+}
+.sponsors a.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a:hover{
+    /* transform: translateY(50%); */
+    transform: scale(1.2);
+    transition: transform 2s ease-in;
+   
+}

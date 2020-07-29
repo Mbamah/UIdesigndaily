@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Verification</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cards">
+      <!-- login verification -->
+
+      <section class="card1">
+        <div class="heading">
+          <h1>login verification</h1>
+          <p>
+            To continue logging in we need you to complete one of the following:
+          </p>
+        </div>
+
+        <div class="radio">
+          <input type="radio" />
+          <label for="">Verification code via email</label>
+        </div>
+        <div class="radio">
+          <input type="radio" checked />
+          <label for="">Verification code via SMS</label>
+          <p class="text">
+            we'll send a code to your mobile phone that can enter to verify your
+            identity.
+          </p>
+        </div>
+        <button>
+          Send SMS Code
+        </button>
+        <div class="check">
+          <input type="checkbox" checked />
+          <label for="">Remember this device</label>
+          <p class="text remember">
+            Don't select this option if you're using a public computer
+          </p>
+        </div>
+
+        <div class="center">
+          <a href="#">Return to Login</a>
+        </div>
+      </section>
+
+      <!-- login -->
+      <section class="card2">
+        <div class="center">
+          <h1>Login</h1>
+          <a href="https://www.google.com">Create an account</a>
+        </div>
+        <form action="">
+          <div class="field">
+            <label for="">Username</label>
+            <input type="text" placeholder="Enter your username" />
+          </div>
+          <div class="field">
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter your password" />
+          </div>
+          <div class="field">
+            <button type="submit">Log in</button>
+          </div>
+        </form>
+        <span>
+          <input type="checkbox" checked />
+          <p>Keep me logged in</p>
+        </span>
+
+        <div class="center">
+          <a href="https://www.google.com/">Forgot password?</a>
+          <h6>2001 - 2020 all right reserved</h6>
+        </div>
+      </section>
+      <!-- <svg width="1213" height="711" viewBox="0 0 1213 711" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <style>
+          path {
+            fill: #ccc;
+          }
+          @media (prefers-color-scheme: dark) {
+            path {
+              fill: #3fd;
+            }
+          }
+        </style>
+        <path d="M33.6202 260.235C-13.6046 412.345 -8.74302 458.458 33.6201 533.5C118.341 706.095 413.732 611.768 630.883 659.395C902.32 718.927 1124.75 777.888 1193.63 523.319C1239.66 353.225 1198.34 281.686 1112.04 187.133C1025.75 92.581 950.959 111.091 808.703 77.0724C615.719 30.9229 543.018 -10.9763 407.043 2.59194C251.51 18.1118 107.881 21.0415 33.6202 260.235Z" fill="#505DD1"/>
+      </svg> -->
+    </div>
+  </body>
+</html>

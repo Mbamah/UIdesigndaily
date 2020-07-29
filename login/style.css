@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* original view  w=1600 h=1200 */
+body{
+    background: #1B1A34;
+    margin: 10em auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+
+/* cards container */
+.cards{
+   
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+ position: relative;
+}
+
+.cards::after{
+   
+    /* Vector 1 */
+position: absolute;
+width: 198px;
+height: 711px;
+left: 10px;
+top: 10px;
+background: #505DD1;
+
+}
+
+.cards section{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; /*425*/
+    height: 680px; /*752*/
+    background: #fff;
+    padding: 4em 0;
+}
+    
+/* card 2 section(Login)*/
+.card2{
+    transform: translateY(100px);
+}
+.card2 h1{
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom:1em ;
+    padding: .2em 0;
+    text-align: center;
+}
+
+
+
+.field{
+    margin:  1.3em 0;
+}
+
+.card2 label, input, button{
+    display: block;
+    margin: 0 2.8em;
+}
+
+.card2 label{
+    color:#000000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: .3em 0;
+
+}
+
+.card2 input{
+    border-radius: 10px;
+    color: #1B1A34;
+    outline: none;
+    font-size: 1.1rem;
+    padding:.9em 2em;
+    border: 1px solid #1B1A34;
+    opacity: .5;
+}
+.card2 button{
+    margin: 1.6em 3em;
+    padding:.9em 5em;
+    text-align: center;
+    background-color: #1B1A34;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    width: 71%;
+    font-size: 1.1rem;
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-transform:capitalize ;
+    cursor: pointer;
+
+}
+button:hover{
+   background-color: #505DD1;
+   opacity: .9;
+    transition:  background-color 2s ease;
+}
+button:focus{
+    outline: none;
+}
+
+.card2 span{
+   display: flex;
+   margin: 2em 0;
+   /* background: #000; */
+   padding-bottom:  4em  ;
+   
+}
+.card2 p{
+    margin-left: -2.6em;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.card2 input[type="checkbox"]  {
+    margin: 0 3.1em;
+    width: 25px;
+    height: 25px;
+}
+
+.card2 a {
+    text-decoration: none;
+    color: #505DD1;
+}
+a:hover{
+    color: #1B1A34;
+   
+}
+
+.center{
+    text-align: center;
+    
+}
+
+h6{
+    color: #1B1A34;
+    opacity: .6;
+    text-align: center;
+    margin: 2em 0;
+    letter-spacing: 1px;
+   
+}
+
+
+/* card 1 section(login verification) */
+.card1 label, input{
+    display: inline-block;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    color: #000;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: .2em 0;
+    
+}
+.heading p{
+    line-height: 25px;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 2em ;
+}
+.radio, .check{
+    margin: 1.5em 0;
+    /* text-align: center; */
+}
+.card1 input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+.card1 input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+label{
+    color:#000000;
+    font-size: 1.3rem;
+    font-weight: 400;
+    /* margin-left: 3em ; */
+    margin-left: -1.4em;
+}
+ p.text{
+    color: #1B1A34;
+    opacity: .6;
+    text-align: center;
+    font-weight: 500;
+    font-size: .9rem;
+    margin:.9em  5.3em ;
+    text-align: left;
+   
+}
+p.text.remember{
+    padding-bottom: 4.5em ;
+}
+
+button{
+    background-color: #1B1A34;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #1B1A34;
+    color: #fff;
+    margin: 0  6em;
+    padding: 1.5em 2em ;
+    outline: none;
+
+}
+
+.center a{
+    color: #505DD1;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+ a:hover{
+
+    text-decoration: underline;
+}
+
+
+input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #1B1A34;
+}
+
+
+.check input[type="checkbox"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 15px;
+    height: 15px;
+    /* border-radius: 50%; */
+    background: #1B1A34;
+}
+
