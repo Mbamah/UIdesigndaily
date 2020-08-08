@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5E4E4;
+}
+section{
+    background-color: white;
+    height: 600px;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+.image{
+    object-fit: cover;
+}
+img{
+    height: 600px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+}
+.text{
+    margin: 9em auto;
+    width: 400px;
+}
+.text h2{
+    padding-bottom: 1.5em;
+}
+.text > p{
+    padding-bottom: 3.8em;
+    line-height: 1.5em;
+}
+.groups{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #D5E4E4;
+    border-radius: 3px;
+    width: 228px;
+    align-items: center;
+    cursor: pointer;
+}
+.group p{
+    padding:.7em 1em;
+}
+svg{
+    padding: .5em;
+}
+.group.more{
+    background-image:linear-gradient(to right,#10BAB6, #006D6F);
+    /* background-color: #10BAB6 #006D6F; */
+    color: #fff;
+}

@@ -1,5 +1,5 @@
 # UI Design Daily
-### Components
+### Components! ### Components! ### Components!
 
 **[UI design daily](https://uidesigndaily.com)** is a website that provides free UI resources to anybody who is interested in using them as inspiration or research material.
 
@@ -7,5 +7,5 @@ I started this journey of implementing these designs to improve my frontend skil
 
 The **[index.html](https://ui-designdaily.vercel.app/)** contains the url to the components I have implemented.
 
-####Thank you!!
+#### Thank you!!
 
