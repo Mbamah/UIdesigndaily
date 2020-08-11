@@ -1,5 +1,5 @@
 # UI Design Daily
-### Components! ### Components! ### Components!
+### Components!  Components! Components!
 
 **[UI design daily](https://uidesigndaily.com)** is a website that provides free UI resources to anybody who is interested in using them as inspiration or research material.
 
