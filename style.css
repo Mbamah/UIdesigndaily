@@ -1,0 +1,103 @@
+body {
+  font-family: "Nunito", sans-serif;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+header{
+    width:100%;
+    background: white;
+    top:0;
+    position:sticky;
+    /* box-shadow:1px 1px 8px 1px #eee; */
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 auto;
+    max-width:1200px;
+    color: #03071E;
+    
+    
+
+   font-family: 'Noto Sans Display', sans-serif;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration:none;
+      padding: .5em 1.3em;  
+    color: #03071E;
+    font-weight:100;
+
+}
+nav ul li a:hover{
+    background:#00072D;
+    color:white;
+    border-radius:5px;
+}
+section.hero{
+    width:100%;
+    background:#A6E1FA;
+    max-width:1400px;
+    height:50vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  background:#f1faee;
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  /* background-image: linear-gradient(to left bottom, #a6e1fa, #8acbeb, #6fb4db, #559ecc, #3a88bd, #2e7eb6, #2075af, #0e6ba8, #0e6ba8, #0e6ba8, #0e6ba8, #0e6ba8); */
+  /* background-image: linear-gradient(to left bottom, #a6e1fa, #7abde3, #5299cd, #3075b4, #15529a, #0d4992, #053f8a, #003682, #00438d, #005197, #005ea0, #0e6ba8); */
+  /* background-image: linear-gradient(to left top, #a6e1fa, #7abde3, #5299cd, #3075b4, #15529a, #0d4992, #053f8a, #003682, #00438d, #005197, #005ea0, #0e6ba8); */
+    /* margin:auto; */
+    /* padding:10em; */
+
+}
+
+section.hero div {
+  text-align:center;
+  width:500px;
+  color:white;
+
+}
+section.hero div h1{
+   font-family: 'Noto Sans Display', sans-serif;
+ /* color:#A8EB12; */
+ color:#00072D;
+ font-size:2.4rem;
+}
+section.hero div p{
+    color: #5299cd;
+}
+section.hero div img{
+    width:30px;
+    
+}
+section.links{
+    background:red;
+    margin:0 auto;
+    z-index:1;
+    width:100%;
+    max-width:1000px
+}
+ol li {
+  margin: 1em 0;
+  color: rgb(92, 19, 19);
+}
+ol li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+a {
+  text-decoration: underline;
+  color: rgb(155, 37, 155);
+}
+a:hover {
+  color: #000;
+}
